@@ -1,4 +1,4 @@
-# Welcome to the SecretFlow Developer Community
+# Welcome to SecretFlow Developer Community
 
 The community repository stores documents used by the developer community.
 - [rfcs](./rfcs/) - design documents used by the design review process
