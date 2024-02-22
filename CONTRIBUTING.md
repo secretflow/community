@@ -72,7 +72,7 @@ SecretFlow 中使用 pytest 来完成单测。[pytest 文档](https://pytest.org
 #### 其他要点
 
 **Device**  
-隐语在代码中提供了阈值的 device，包括 `pyu`,`spu`,`heu` 等，您在写单测的时候直接参考引用即可
+隐语在代码中提供预置的 device，包括 `pyu`,`spu`,`heu` 等，您在写单测的时候直接参考引用即可
 <https://github.com/secretflow/secretflow/blob/main/tests/conftest.py>
 
 **执行测试**  
