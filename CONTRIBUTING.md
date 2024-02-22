@@ -12,7 +12,7 @@
 3. 提供对应的unittest，并保证新添加的单测和已有单测都通过
 4. 申请code review
 5. Pull request successfully merged and closed
-![alt text](./resources/image.png)
+![alt text](./resources/checklist.png)
 ## 签署CLA
 CLA协议指的是“Contributor License Agreement”，即“贡献者许可协议”。这是开源项目经常使用的一种法律协议，它规定了贡献者如何以及在什么条件下向项目提交代码或文档等贡献。  
 在您第一次为secretflow提交代码时，我们需要您签署CLA协议。  
@@ -39,14 +39,14 @@ I have read the CLA Document and I hereby sign the CLA
 - [Black文档](https://black.readthedocs.io/en/stable/the_black_code_style/current_style.html): 在使用black进行格式化的时候需要加上`-S, --skip-string-normalization`.
 - [isort文档](https://pycqa.github.io/isort/)
 - [Format_in_VSCode](https://code.visualstudio.com/docs/python/formatting): 在IDE中配置正确的格式化插件可以提高开发效率。
-![alt text](./resources/image-1.png)
+![alt text](./resources/formater-1.png)
 
-![alt text](./resources/image-2.png)
+![alt text](./resources/formater-2.png)
 
 
 **格式化Lint报错**
 可以点击旁边的`Detail`查看具体的报错信息，可以根据报错信息进行代码格式调整。  
-![alt text](./resources/image-3.png)
+![alt text](./resources/lint.png)
 ### 单测  
 - 当您为SecretFlow贡献代码时，请务必包括单元测试，因为单元测试可以保证您提供的代码运行正常， 同时可以保证改动不影响其他模块功能。同时在未来进行破坏性修改的时候，可以保证模块正确性，降低维护成本。
 - Bug修复也需要单元测试，因为Bug的存在通常表明测试覆盖率不足。  
