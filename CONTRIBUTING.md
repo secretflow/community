@@ -57,7 +57,7 @@ I have read the CLA Document and I hereby sign the CLA
 - [Format_in_VSCode](https://code.visualstudio.com/docs/python/formatting): 在IDE中配置正确的格式化插件可以提高开发效率。
 ![alt text](./resources/formater-1.png)
 
-![alt text](./resources/formater-2.png)
+![alt text](./resources/formater-2.jpg)
 
 **格式化Lint报错**
 可以点击旁边的`Detail`查看具体的报错信息，可以根据报错信息进行代码格式调整。  
