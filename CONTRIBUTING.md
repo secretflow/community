@@ -15,8 +15,9 @@
 1. 签署 CLA
 2. 提交规范代码
 3. 提供对应的 unittest，并保证新添加的单测和已有单测都通过
-4. 申请 code review
-5. Pull request successfully merged and closed
+4. 添加License Header
+5. 申请 code review
+6. Pull request successfully merged and closed
 ![alt text](./resources/checklist.png)
 
 ## 签署 CLA
@@ -68,6 +69,31 @@ I have read the CLA Document and I hereby sign the CLA
 - 当您为 SecretFlow 贡献代码时，请务必包括单元测试，因为单元测试可以保证您提供的代码运行正常， 同时可以保证改动不影响其他模块功能。同时在未来进行破坏性修改的时候，可以保证模块正确性，降低维护成本。
 - Bug 修复也需要单元测试，因为 Bug 的存在通常表明测试覆盖率不足。  
 SecretFlow 中使用 pytest 来完成单测。[pytest 文档](https://pytest.org/)
+
+## 添加License Header
+
+为了避免版权纠纷，我们要求所有的贡献者在提交代码前必须添加版权头部。  
+在提交代码前，请在新增加的文件的头部添加
+```python
+# Copyright 2024 Ant Group Co., Ltd.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+```
+替换：
+` Ant Group Co., Ltd.`，改为你自己的`名字`和`邮箱`,方便其他关注到这部分代码的同学和你进行交流。  
+
+**注意**：请确保不要采用Apache、MIT、BSD之外的其他许可证，以及避免所有商业许可证。
 
 #### 其他要点
 
